@@ -76,7 +76,7 @@ systemctl enable zabbix-server apache2
 
 Требования к результатам
 Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
-![Название скриншота 2](ссылка на скриншот 2)
+![Раздел hosts в zabbix](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%20hosts%20%D0%B2%20zabbix.png)
 
 Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
 ![Название скриншота 2](ссылка на скриншот 2)
