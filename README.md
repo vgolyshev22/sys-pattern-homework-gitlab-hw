@@ -79,7 +79,7 @@ systemctl enable zabbix-server apache2
 ![Раздел hosts в zabbix](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%20hosts%20%D0%B2%20zabbix.png)
 
 Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
-![Название скриншота 2](ссылка на скриншот 2)
+![Логи подключения к zabbix server](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/%D0%9B%D0%BE%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BA%20zabbix%20server.png)
 
 Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
 ![Название скриншота 2](ссылка на скриншот 2)
