@@ -39,7 +39,7 @@
 
 Приложите в файл README.md текст использованных команд в GitHub.
 1.Установил Posgresql
-sudo apt install postgresql
+```sudo apt install postgresql```
 
 2.Установил репрозиторий zabbix с официального ресурса
 wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
