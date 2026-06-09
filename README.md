@@ -39,30 +39,41 @@
 
 Приложите в файл README.md текст использованных команд в GitHub.
 1.Установил Posgresql
-```sudo apt install postgresql```
+```java
+sudo apt install postgresql
+```
 
 2.Установил репрозиторий zabbix с официального ресурса
-```wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
+```java
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_latest_6.0+debian11_all.deb
 dpkg -i zabbix-release_latest_6.0+debian11_all.deb
-apt update```
+apt update
+```
 
 3.Установил zabbix-server с официального ресурса
-```apt install zabbix-server-pgsql zabbix-frontend-php php-pgsql zabbix-apache-conf zabbix-sql-scripts```
+```java
+apt install zabbix-server-pgsql zabbix-frontend-php php-pgsql zabbix-apache-conf zabbix-sql-scripts
+```
 
 4.Создал пользователя с помощью psql из-под root согласно командам, предложенным в презентации
-```su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD '\'123456789\'';"'
-su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"```
+```java
+su - postgres -c 'psql --command "CREATE USER zabbix WITH PASSWORD '\'123456789\'';"'
+su - postgres -c 'psql --command "CREATE DATABASE zabbix OWNER zabbix;"
+```
 
 5.На хосте Zabbix сервера импортировал начальную схему и данные командой
-```zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix```
+```java
+zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
+```
 
 6.Отредактировал файл /etc/zabbix/zabbix_server.conf в части параметра DBPassword, установил туда ранее заданный пароль для пользователя zabbix - 123456789.
 
 7.Запустил процессы Zabbix сервера и настроил их запуск при загрузке ОС.
-```systemctl restart zabbix-server apache2
-systemctl enable zabbix-server apache2```
+```java
+systemctl restart zabbix-server apache2
+systemctl enable zabbix-server apache2
+```
 
----
 
 Задание 2
 Установите Zabbix Agent на два хоста.
