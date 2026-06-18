@@ -32,7 +32,7 @@
 3.Создайте Item который будет собирать информацию об загрузке RAM в процентах
 
 Требования к результату
-Прикрепите в файл README.md скриншот страницы шаблона с названием «Задание 1»
+[Задание1](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201.png)
 
  
 Задание 2
@@ -47,7 +47,8 @@
 5.Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
 
 Требования к результату
-Результат данного задания сдавайте вместе с заданием 3
+[Настроенные агенты zabbix](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_Hosts.png)
+[Подтверждение, что с агентов собираются события](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_latest%20data.png)
 
 Задание 3
 Привяжите созданный шаблон к двум хостам. Также привяжите к обоим хостам шаблон Linux by Zabbix Agent.
@@ -59,7 +60,8 @@
 3.Проверьте что в раздел Latest Data начали поступать необходимые данные из вашего шаблона
 
 Требования к результату
-Прикрепите в файл README.md скриншот страницы хостов, где будут видны привязки шаблонов с названиями «Задание 2-3». Хосты должны иметь зелёный статус подключения
+[Сбор событий по item CPU](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_CPU%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0_%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%203.png)
+[Сбор событий по item RAM](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%20RAM%20%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%203.png)
 
 Задание 4
 
@@ -71,4 +73,4 @@
 3.Разместите на нём несколько графиков на ваше усмотрение.
 
 Требования к результату
-Прикрепите в файл README.md скриншот дашборда с названием «Задание 4»
+[Задание 4](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%204.png)
