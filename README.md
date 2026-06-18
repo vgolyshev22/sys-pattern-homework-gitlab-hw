@@ -31,8 +31,8 @@
 2.Создайте Item который будет собирать информацию об загрузке CPU в процентах
 3.Создайте Item который будет собирать информацию об загрузке RAM в процентах
 
-Требования к результату
-[Задание1](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201.png)
+
+[Zabbix2_Задание1](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201.png)
 
  
 Задание 2
