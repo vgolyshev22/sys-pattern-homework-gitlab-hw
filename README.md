@@ -47,6 +47,8 @@
 5.Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
 
 Требования к результату
+[Задание3_два шаблона_хост1](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B53_%D1%85%D0%BE%D1%81%D1%821_%D0%B4%D0%B2%D0%B0%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0.png)
+[Задание3_два шаблона_хост2](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B53_%D1%85%D0%BE%D1%81%D1%822_%D0%B4%D0%B2%D0%B0%20%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0.png)
 [Настроенные агенты zabbix](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_Hosts.png)
 [Подтверждение, что с агентов собираются события](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Zabbix2_latest%20data.png)
 
