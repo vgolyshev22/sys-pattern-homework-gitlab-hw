@@ -37,8 +37,16 @@
 [haproxy-task1.cfg](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/haproxy-task1.cfg)
 
 Задание 2
+
+
 Запустите три simple python сервера на своей виртуальной машине на разных портах
+
 Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
+
 HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
+
 На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
-[Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637#Code)
+
+![Обращения на example.local](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Haproxy%202.png)
+![Обращения нна домен example.local](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Haproxy%202-2.png)
+[haproxy.cfg](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/haproxy-task2.cfg)
