@@ -50,4 +50,4 @@ HAproxy должен балансировать только тот http-тра�
 ![Обращения на example.local](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Haproxy%202.png)
 ![Обращения нна домен example.local](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/img/Haproxy%202-2.png)
 
-[haproxy.cfg](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/haproxy-task2.cfg)
+[haproxy-task2.cfg](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/haproxy-task2.cfg)
