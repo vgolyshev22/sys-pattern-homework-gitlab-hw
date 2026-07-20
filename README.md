@@ -41,7 +41,12 @@
 В качестве результата пришлите:
 
 1. Terraform Playbook.
-
+[load-balancer.tf](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/load-balancer.tf)
+[network.tf](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/network.tf)
+[outputs.tf](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/outputs.tf)
+[providers.tf](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/providers.tf)
+[variables.tf](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/variables.tf)
+[vms.tf](https://github.com/vgolyshev22/sys-pattern-homework-gitlab-hw/blob/main/vms.tf)
 
 3. Скриншот статуса балансировщика и целевой группы.
 
